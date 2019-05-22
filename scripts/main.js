@@ -265,7 +265,7 @@ const COLOR_MAP = [
   }
 ];
 
-console.log(COLOR_MAP);
+document.documentElement.requestFullscreen();
 
 const colorMap = document.getElementById("color-map");
 
