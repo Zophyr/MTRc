@@ -272,6 +272,7 @@ const colorMap = document.getElementById("color-map");
 for (let i = 0; i < 88; i++) {
   let div = document.createElement("div");
   div.classList.add("color-block");
+  div.id = i;
   div.style.backgroundColor = COLOR_MAP[i].color;
   div.style.backgroundColor = colorMap.appendChild(div);
 }
